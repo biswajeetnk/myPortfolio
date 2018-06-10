@@ -1,0 +1,140 @@
+:root
+{
+	font-size: 5px;
+}
+
+.item1
+{
+	height: 500px;
+	background-image: url("selfie.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+}
+
+#welcome-text
+{
+	font-family: Georgia;
+	color: #590465;
+	font-weight: bold;
+	font-size: 5rem;
+	padding-top: 5vh;
+	padding-left: 5vw;
+	text-shadow: 3px 3px 2px grey;
+}
+
+#welcome-text::first-letter
+{
+	font-size: 45pt;
+}
+
+.text
+{
+	font-family: Georgia;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 4rem;
+	padding-top: 5vh;
+	padding-left: 15vw;
+	text-shadow: 2px 3px 2px grey;
+}
+
+.parent
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.item2
+{
+    background-color: #E9E5EE;
+    height: 100%;
+	border-radius: 10px;
+	border-color: red;
+	background: linear-gradient(white, #88F7E8);
+}
+
+p
+{
+    font-family: Georgia;
+	font-weight: bold;
+	font-size: 4rem;
+	text-align : center;
+	color: #0D0F14;
+}
+
+p::first-letter
+{
+	font-size: 25pt;
+}
+
+.item2:hover
+{
+	background-color: #A3EE6C;
+	box-shadow: 5px 5px 100px;
+}
+
+.item3
+{
+	height: 100%;
+	border-radius: 10px;
+	background-color: #EEBD6C;
+	background: linear-gradient(#88F7E8, white);
+}
+
+.item3:hover
+{
+	background-color: #FFB600;
+	text-decoration-color: white;
+	box-shadow: 5px 5px 100px;
+}
+
+.item4
+{
+	height: 100%;
+	padding-top: 5px;
+	border-radius: 10px;
+	background-color: #EEBD6C;
+	background: linear-gradient(white, #C0C3CB, white);
+}
+
+
+.item4:hover
+{
+	background-color: #FFB600;
+	text-decoration-color: white;
+	box-shadow: 5px 5px 100px;
+}
+
+.heading
+{
+	color: #0A0FA4;
+	font-style: italic;
+}
+
+@media screen and (min-width: 700px)
+{
+	.item2
+	{
+		width: 50%;
+	}
+
+	.item3
+	{
+		width: 50%
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px)
+{
+	.item2
+	{
+		width: 100%
+	}
+
+	.item3
+	{
+		width: 100%;
+	}
+}
